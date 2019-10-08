@@ -186,13 +186,13 @@
  
 }
 
-.projects-container{
+#projects-container{
 
 	display: flex;
     flex-direction: row;
 	align-items: center;
 	
-	.project{
+	#project{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -201,7 +201,7 @@
         border-style: solid;
         margin-top: 3em;
 
-        .pic1{
+        #pic1{
             background-image: url('../images/travPic.png');
             height: -webkit-fill-available;
             height: 100%;
@@ -213,7 +213,7 @@
             justify-content: center;
             transition: all 900ms ease;
 
-            .text{
+            #text{
                 visibility: hidden;
                 font-family: "Mukta", sans-serif;
                 font-size: 2em;
@@ -222,18 +222,18 @@
             }
         }
 
-        .pic1:hover{
+        #pic1:hover{
             width: 25em;
             text-shadow: 12px 13px black;
             border-radius: 50%;
 
 
-            .text{
+            #text{
                 visibility: visible
             }
         }
 
-        .pic2{
+        #pic2{
             background-image: url('../images/cbayPic.png');
             height: -webkit-fill-available;
             height: 100%;
@@ -245,7 +245,7 @@
             justify-content: center;
             transition: all 900ms ease;
 
-            .text{
+            #text{
                 visibility: hidden;
                 font-family: "Mukta", sans-serif;
                 font-size: 2em;
@@ -254,18 +254,18 @@
             }
         }
 
-        .pic2:hover{
+        #pic2:hover{
             width: 25em;
             text-shadow: 12px 13px black;
             border-radius: 50%;
 
 
-            .text{
+            #text{
                 visibility: visible
             }
         }
 
-        .pic3{
+        #pic3{
             background-image: url('../images/pickupPic.png');
             height: -webkit-fill-available;
             height: 100%;
@@ -277,7 +277,7 @@
             justify-content: center;
             transition: all 900ms ease;
 
-            .text{
+            #text{
                 visibility: hidden;
                 font-family: "Mukta", sans-serif;
                 font-size: 25px;
@@ -286,18 +286,18 @@
             }
         }
 
-        .pic3:hover{
+        #pic3:hover{
             width: 25em;
             text-shadow: 12px 13px black;
             border-radius: 50%;
 
 
-            .text{
+            #text{
                 visibility: visible
             }
 		}
 		
-		.pic4{
+		#pic4{
             background-image: url('../images/profilePic.jpg');
             height: -webkit-fill-available;
             height: 100%;
@@ -309,7 +309,7 @@
             justify-content: center;
             transition: all 900ms ease;
 
-            .text{
+            #text{
                 visibility: hidden;
                 font-family: "Mukta", sans-serif;
                 font-size: 25px;
@@ -318,20 +318,20 @@
             }
         }
 
-        .pic4:hover{
+        #pic4:hover{
             width: 25em;
             text-shadow: 12px 13px black;
             border-radius: 50%;
 
 
-            .text{
+            #text{
                 visibility: visible
             }
         }
 
 
 
-        .description{
+        #description{
             display: flex;
             align-items: center;
             flex-direction: column;

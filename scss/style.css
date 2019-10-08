@@ -973,7 +973,7 @@ body:after {
 }
 
 /* responsive media queries */
-.projects-container {
+#projects-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -986,7 +986,7 @@ body:after {
           align-items: center;
 }
 
-.projects-container .project {
+#projects-container #project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1002,7 +1002,7 @@ body:after {
   margin-top: 3em;
 }
 
-.projects-container .project .pic1 {
+#projects-container #project #pic1 {
   background-image: url("../images/travPic.png");
   height: -webkit-fill-available;
   height: 100%;
@@ -1025,7 +1025,7 @@ body:after {
   transition: all 900ms ease;
 }
 
-.projects-container .project .pic1 .text {
+#projects-container #project #pic1 #text {
   visibility: hidden;
   font-family: "Mukta", sans-serif;
   font-size: 2em;
@@ -1033,17 +1033,17 @@ body:after {
   color: aliceblue;
 }
 
-.projects-container .project .pic1:hover {
+#projects-container #project #pic1:hover {
   width: 25em;
   text-shadow: 12px 13px black;
   border-radius: 50%;
 }
 
-.projects-container .project .pic1:hover .text {
+#projects-container #project #pic1:hover #text {
   visibility: visible;
 }
 
-.projects-container .project .pic2 {
+#projects-container #project #pic2 {
   background-image: url("../images/cbayPic.png");
   height: -webkit-fill-available;
   height: 100%;
@@ -1066,7 +1066,7 @@ body:after {
   transition: all 900ms ease;
 }
 
-.projects-container .project .pic2 .text {
+#projects-container #project #pic2 #text {
   visibility: hidden;
   font-family: "Mukta", sans-serif;
   font-size: 2em;
@@ -1074,17 +1074,17 @@ body:after {
   color: aliceblue;
 }
 
-.projects-container .project .pic2:hover {
+#projects-container #project #pic2:hover {
   width: 25em;
   text-shadow: 12px 13px black;
   border-radius: 50%;
 }
 
-.projects-container .project .pic2:hover .text {
+#projects-container #project #pic2:hover #text {
   visibility: visible;
 }
 
-.projects-container .project .pic3 {
+#projects-container #project #pic3 {
   background-image: url("../images/pickupPic.png");
   height: -webkit-fill-available;
   height: 100%;
@@ -1107,7 +1107,7 @@ body:after {
   transition: all 900ms ease;
 }
 
-.projects-container .project .pic3 .text {
+#projects-container #project #pic3 #text {
   visibility: hidden;
   font-family: "Mukta", sans-serif;
   font-size: 25px;
@@ -1115,17 +1115,17 @@ body:after {
   color: aliceblue;
 }
 
-.projects-container .project .pic3:hover {
+#projects-container #project #pic3:hover {
   width: 25em;
   text-shadow: 12px 13px black;
   border-radius: 50%;
 }
 
-.projects-container .project .pic3:hover .text {
+#projects-container #project #pic3:hover #text {
   visibility: visible;
 }
 
-.projects-container .project .pic4 {
+#projects-container #project #pic4 {
   background-image: url("../images/profilePic.jpg");
   height: -webkit-fill-available;
   height: 100%;
@@ -1148,7 +1148,7 @@ body:after {
   transition: all 900ms ease;
 }
 
-.projects-container .project .pic4 .text {
+#projects-container #project #pic4 #text {
   visibility: hidden;
   font-family: "Mukta", sans-serif;
   font-size: 25px;
@@ -1156,17 +1156,17 @@ body:after {
   color: aliceblue;
 }
 
-.projects-container .project .pic4:hover {
+#projects-container #project #pic4:hover {
   width: 25em;
   text-shadow: 12px 13px black;
   border-radius: 50%;
 }
 
-.projects-container .project .pic4:hover .text {
+#projects-container #project #pic4:hover #text {
   visibility: visible;
 }
 
-.projects-container .project .description {
+#projects-container #project #description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1186,7 +1186,7 @@ body:after {
   font-family: "Mukta", sans-serif;
 }
 
-.projects-container .project .description a {
+#projects-container #project #description a {
   position: relative;
   top: 2em;
   text-decoration: underline;
