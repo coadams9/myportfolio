@@ -186,11 +186,138 @@
  
 }
 
-.projects{
+.projects-container{
 
 	display: flex;
     flex-direction: row;
-    align-items: center;
+	align-items: center;
+	
+	.project{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 19em;
+        width: 100vw;
+        border-style: solid;
+        margin-top: 3em;
+
+        .pic{
+            background-image: url('../../images/travPic.png');
+            height: -webkit-fill-available;
+            height: 100%;
+            width: 30em;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 900ms ease;
+
+            .text{
+                visibility: hidden;
+                font-family: "Mukta", sans-serif;
+                font-size: 2em;
+                text-align: center;
+                color: aliceblue
+            }
+        }
+
+        .pic:hover{
+            width: 25em;
+            text-shadow: 12px 13px black;
+            border-radius: 50%;
+
+
+            .text{
+                visibility: visible
+            }
+        }
+
+        .pic2{
+            background-image: url('../../images/pickupPic.png');
+            height: -webkit-fill-available;
+            height: 100%;
+            width: 30em;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 900ms ease;
+
+            .text{
+                visibility: hidden;
+                font-family: "Mukta", sans-serif;
+                font-size: 2em;
+                text-align: center;
+                color: aliceblue
+            }
+        }
+
+        .pic2:hover{
+            width: 25em;
+            text-shadow: 12px 13px black;
+            border-radius: 50%;
+
+
+            .text{
+                visibility: visible
+            }
+        }
+
+        .pic3{
+            background-image: url('../../images/profilePic.jpg');
+            height: -webkit-fill-available;
+            height: 100%;
+            width: 30em;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 900ms ease;
+
+            .text{
+                visibility: hidden;
+                font-family: "Mukta", sans-serif;
+                font-size: 25px;
+                text-align: center;
+                color: aliceblue
+            }
+        }
+
+        .pic3:hover{
+            width: 25em;
+            text-shadow: 12px 13px black;
+            border-radius: 50%;
+
+
+            .text{
+                visibility: visible
+            }
+        }
+
+
+        .description{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            // height: -webkit-fill-available;
+            width: 30em;
+            text-align: center;
+            font-size: large;
+            font-family: "Mukta", sans-serif;
+
+
+            a{
+                position: relative;
+                top: 2em;
+                text-decoration: underline;
+            }
+        }
+    }
+
 
 
 }
