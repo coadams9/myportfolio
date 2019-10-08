@@ -41,6 +41,7 @@
 		font-family: $font-family-2;
 	}
 	.img-face {
+		transform: rotate(90deg);
 		position: absolute;
 		right: -5%;
 		bottom: 0;
