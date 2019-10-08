@@ -973,20 +973,30 @@ body:after {
 }
 
 /* responsive media queries */
-.item {
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projects .item {
   border: none;
   margin-bottom: 30px;
   border-radius: 4px;
 }
 
-.item a {
+.projects .item a {
   display: block;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
 }
 
-.item a img {
+.projects .item a img {
   position: relative;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -994,12 +1004,12 @@ body:after {
   transition: .3s all ease-in-out;
 }
 
-.item .item-wrap {
+.projects .item .item-wrap {
   display: block;
   position: relative;
 }
 
-.item .item-wrap:after {
+.projects .item .item-wrap:after {
   z-index: 2;
   position: absolute;
   content: "";
@@ -1014,7 +1024,7 @@ body:after {
   transition: .3s all ease-in-out;
 }
 
-.item .item-wrap > span {
+.projects .item .item-wrap > span {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1029,12 +1039,12 @@ body:after {
   transition: .3s all ease;
 }
 
-.item .item-wrap:hover:after {
+.projects .item .item-wrap:hover:after {
   opacity: 1;
   visibility: visible;
 }
 
-.item .item-wrap:hover span {
+.projects .item .item-wrap:hover span {
   margin-top: 0px;
   opacity: 1;
   visibility: visible;
@@ -1042,7 +1052,7 @@ body:after {
           transform: translate(-50%, -50%) scale(1);
 }
 
-.item:hover a img {
+.projects .item:hover a img {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: .3s all ease-in-out;
